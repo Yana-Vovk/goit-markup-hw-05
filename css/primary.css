@@ -279,8 +279,3 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.join-circle:hover,
-.join-circle:focus {
-  background-color: var(--active-color);
-}

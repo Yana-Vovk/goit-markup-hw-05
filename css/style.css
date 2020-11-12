@@ -234,13 +234,15 @@
   margin-right: 10px;
 }
 
-.team-circle:hover,
-.team-circle:focus {
+.media-link:hover .team-circle,
+.media-link:focus .team-circle,
+.media-link:hover .join-circle,
+.media-link:focus .join-circle {
   background-color: var(--active-color);
 }
 
-.team-circle:hover .sosial-icons,
-.team-circle:focus .sosial-icons {
+.media-link:hover .sosial-icons,
+.media-link:focus .sosial-icons {
   fill: var(--secondary-color);
 }
 
@@ -316,6 +318,9 @@
 
 .projects .li-item {
   width: calc((100% - 60px) / 3);
+}
+
+.projects-wrapping {
   border: 1px solid var(--light-line);
 }
 
@@ -327,8 +332,8 @@
   margin-bottom: 30px;
 }
 
-.projects .li-item:hover,
-.projects .li-item:focus {
+.projects .link:hover .projects-wrapping,
+.projects .link:focus .projects-wrapping {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -356,12 +361,12 @@
   fill: var(--sosial-icon);
 }
 
-.clients li:hover .client-icon,
-.clients li:focus .client-icon {
+.customer-link:hover .client-icon,
+.customer-link:focus .client-icon {
   fill: var(--active-color);
 }
 
-.clients li:hover .clients-box,
-.clients li:focus .clients-box {
+.customer-link:hover .clients-box,
+.customer-link:focus .clients-box {
   border: 1px solid var(--active-color);
 }
