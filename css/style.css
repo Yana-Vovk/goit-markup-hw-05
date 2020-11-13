@@ -244,6 +244,8 @@
   width: 20px;
   height: 20px;
   fill: var(--sosial-icon);
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-circle {
@@ -254,6 +256,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sosial-list {
@@ -300,6 +304,10 @@
   letter-spacing: 0.03em;
   border-radius: 4px;
   padding: 6px 22px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter .button:hover,
@@ -355,6 +363,8 @@
 
 .projects-wrapping {
   border: 1px solid var(--light-line);
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects .li-item:not(:nth-child(3n)) {
@@ -388,7 +398,7 @@
   background-color: var(--overlay-bkg);
 
   transform: translatey(100%);
-  transition: transform 250ms ease;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects .overlay {
@@ -410,7 +420,7 @@
   color: var(--secondary-color);
 
   transform: translatey(100%);
-  transition: transform 250ms ease;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects .link:hover .overlay,
@@ -433,6 +443,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients li:not(:last-child) {
@@ -441,6 +453,7 @@
 
 .client-icon {
   fill: var(--sosial-icon);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-link:hover .client-icon,
